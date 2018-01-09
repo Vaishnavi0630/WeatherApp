@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FCDFB541F66B18B00F499AD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCDFB531F66B18B00F499AD /* FirstViewController.m */; };
+		5FCDFB571F66B19B00F499AD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FCDFB561F66B19B00F499AD /* SecondViewController.m */; };
+		5FCDFB591F66B3DB00F499AD /* w.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FCDFB581F66B3DB00F499AD /* w.jpg */; };
+		5FCDFB5B1F66B4ED00F499AD /* w1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FCDFB5A1F66B4ED00F499AD /* w1.jpg */; };
+		5FCDFB5F1F66B84300F499AD /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCDFB5C1F66B84300F499AD /* 1.png */; };
+		5FCDFB601F66B84300F499AD /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FCDFB5D1F66B84300F499AD /* 2.jpg */; };
+		5FCDFB611F66B84300F499AD /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FCDFB5E1F66B84300F499AD /* 3.png */; };
+		5FCDFB631F66BAA100F499AD /* master.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FCDFB621F66BAA100F499AD /* master.jpg */; };
+		5FCDFB651F66BB1B00F499AD /* secondview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FCDFB641F66BB1B00F499AD /* secondview.jpg */; };
+		5FDE4C561F67F5CE005AD040 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE4C531F67F5CE005AD040 /* 1.jpg */; };
+		5FDE4C571F67F5CE005AD040 /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE4C541F67F5CE005AD040 /* 22.jpg */; };
+		5FDE4C581F67F5CE005AD040 /* 33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE4C551F67F5CE005AD040 /* 33.jpg */; };
+		5FDE4C5A1F67F691005AD040 /* wheather.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE4C591F67F691005AD040 /* wheather.png */; };
+		5FDE4C5E1F67F929005AD040 /* i.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE4C5D1F67F929005AD040 /* i.png */; };
+		5FE991081F62C5960011FEC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE991071F62C5960011FEC4 /* main.m */; };
+		5FE9910B1F62C5960011FEC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9910A1F62C5960011FEC4 /* AppDelegate.m */; };
+		5FE991111F62C5960011FEC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE9910F1F62C5960011FEC4 /* Main.storyboard */; };
+		5FE991131F62C5960011FEC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE991121F62C5960011FEC4 /* Assets.xcassets */; };
+		5FE991161F62C5960011FEC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE991141F62C5960011FEC4 /* LaunchScreen.storyboard */; };
+		5FE991211F62C5960011FEC4 /* WheatherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE991201F62C5960011FEC4 /* WheatherAppTests.m */; };
+		5FE9912C1F62C5960011FEC4 /* WheatherAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9912B1F62C5960011FEC4 /* WheatherAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FE9911D1F62C5960011FEC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FE990FB1F62C5960011FEC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE991021F62C5960011FEC4;
+			remoteInfo = WheatherApp;
+		};
+		5FE991281F62C5960011FEC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FE990FB1F62C5960011FEC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE991021F62C5960011FEC4;
+			remoteInfo = WheatherApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FCDFB521F66B18B00F499AD /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5FCDFB531F66B18B00F499AD /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5FCDFB551F66B19B00F499AD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5FCDFB561F66B19B00F499AD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5FCDFB581F66B3DB00F499AD /* w.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w.jpg; sourceTree = "<group>"; };
+		5FCDFB5A1F66B4ED00F499AD /* w1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w1.jpg; sourceTree = "<group>"; };
+		5FCDFB5C1F66B84300F499AD /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		5FCDFB5D1F66B84300F499AD /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		5FCDFB5E1F66B84300F499AD /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		5FCDFB621F66BAA100F499AD /* master.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = master.jpg; sourceTree = "<group>"; };
+		5FCDFB641F66BB1B00F499AD /* secondview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secondview.jpg; sourceTree = "<group>"; };
+		5FDE4C531F67F5CE005AD040 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		5FDE4C541F67F5CE005AD040 /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		5FDE4C551F67F5CE005AD040 /* 33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 33.jpg; sourceTree = "<group>"; };
+		5FDE4C591F67F691005AD040 /* wheather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheather.png; sourceTree = "<group>"; };
+		5FDE4C5D1F67F929005AD040 /* i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i.png; sourceTree = "<group>"; };
+		5FE991031F62C5960011FEC4 /* WheatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE991071F62C5960011FEC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FE991091F62C5960011FEC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FE9910A1F62C5960011FEC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FE991101F62C5960011FEC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FE991121F62C5960011FEC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FE991151F62C5960011FEC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FE991171F62C5960011FEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE9911C1F62C5960011FEC4 /* WheatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE991201F62C5960011FEC4 /* WheatherAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheatherAppTests.m; sourceTree = "<group>"; };
+		5FE991221F62C5960011FEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE991271F62C5960011FEC4 /* WheatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE9912B1F62C5960011FEC4 /* WheatherAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheatherAppUITests.m; sourceTree = "<group>"; };
+		5FE9912D1F62C5960011FEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FE991001F62C5960011FEC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE991191F62C5960011FEC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE991241F62C5960011FEC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F2FDC32004ADCE00865564 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5FCDFB5C1F66B84300F499AD /* 1.png */,
+				5FCDFB5D1F66B84300F499AD /* 2.jpg */,
+				5FCDFB621F66BAA100F499AD /* master.jpg */,
+				5FDE4C5D1F67F929005AD040 /* i.png */,
+				5FDE4C531F67F5CE005AD040 /* 1.jpg */,
+				5FDE4C541F67F5CE005AD040 /* 22.jpg */,
+				5FDE4C551F67F5CE005AD040 /* 33.jpg */,
+				5FDE4C591F67F691005AD040 /* wheather.png */,
+				5FCDFB641F66BB1B00F499AD /* secondview.jpg */,
+				5FCDFB5E1F66B84300F499AD /* 3.png */,
+				5FCDFB5A1F66B4ED00F499AD /* w1.jpg */,
+				5FCDFB581F66B3DB00F499AD /* w.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		5FE990FA1F62C5960011FEC4 = {
+			isa = PBXGroup;
+			children = (
+				5FE991051F62C5960011FEC4 /* WheatherApp */,
+				5FE9911F1F62C5960011FEC4 /* WheatherAppTests */,
+				5FE9912A1F62C5960011FEC4 /* WheatherAppUITests */,
+				5FE991041F62C5960011FEC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FE991041F62C5960011FEC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FE991031F62C5960011FEC4 /* WheatherApp.app */,
+				5FE9911C1F62C5960011FEC4 /* WheatherAppTests.xctest */,
+				5FE991271F62C5960011FEC4 /* WheatherAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FE991051F62C5960011FEC4 /* WheatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				5FE991091F62C5960011FEC4 /* AppDelegate.h */,
+				5FE9910A1F62C5960011FEC4 /* AppDelegate.m */,
+				5FCDFB521F66B18B00F499AD /* FirstViewController.h */,
+				5FCDFB531F66B18B00F499AD /* FirstViewController.m */,
+				5FCDFB551F66B19B00F499AD /* SecondViewController.h */,
+				5FCDFB561F66B19B00F499AD /* SecondViewController.m */,
+				5FE9910F1F62C5960011FEC4 /* Main.storyboard */,
+				5FE991121F62C5960011FEC4 /* Assets.xcassets */,
+				04F2FDC32004ADCE00865564 /* Images */,
+				5FE991141F62C5960011FEC4 /* LaunchScreen.storyboard */,
+				5FE991171F62C5960011FEC4 /* Info.plist */,
+				5FE991061F62C5960011FEC4 /* Supporting Files */,
+			);
+			path = WheatherApp;
+			sourceTree = "<group>";
+		};
+		5FE991061F62C5960011FEC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FE991071F62C5960011FEC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FE9911F1F62C5960011FEC4 /* WheatherAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FE991201F62C5960011FEC4 /* WheatherAppTests.m */,
+				5FE991221F62C5960011FEC4 /* Info.plist */,
+			);
+			path = WheatherAppTests;
+			sourceTree = "<group>";
+		};
+		5FE9912A1F62C5960011FEC4 /* WheatherAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FE9912B1F62C5960011FEC4 /* WheatherAppUITests.m */,
+				5FE9912D1F62C5960011FEC4 /* Info.plist */,
+			);
+			path = WheatherAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FE991021F62C5960011FEC4 /* WheatherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE991301F62C5960011FEC4 /* Build configuration list for PBXNativeTarget "WheatherApp" */;
+			buildPhases = (
+				5FE990FF1F62C5960011FEC4 /* Sources */,
+				5FE991001F62C5960011FEC4 /* Frameworks */,
+				5FE991011F62C5960011FEC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheatherApp;
+			productName = WheatherApp;
+			productReference = 5FE991031F62C5960011FEC4 /* WheatherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FE9911B1F62C5960011FEC4 /* WheatherAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE991331F62C5960011FEC4 /* Build configuration list for PBXNativeTarget "WheatherAppTests" */;
+			buildPhases = (
+				5FE991181F62C5960011FEC4 /* Sources */,
+				5FE991191F62C5960011FEC4 /* Frameworks */,
+				5FE9911A1F62C5960011FEC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FE9911E1F62C5960011FEC4 /* PBXTargetDependency */,
+			);
+			name = WheatherAppTests;
+			productName = WheatherAppTests;
+			productReference = 5FE9911C1F62C5960011FEC4 /* WheatherAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FE991261F62C5960011FEC4 /* WheatherAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE991361F62C5960011FEC4 /* Build configuration list for PBXNativeTarget "WheatherAppUITests" */;
+			buildPhases = (
+				5FE991231F62C5960011FEC4 /* Sources */,
+				5FE991241F62C5960011FEC4 /* Frameworks */,
+				5FE991251F62C5960011FEC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FE991291F62C5960011FEC4 /* PBXTargetDependency */,
+			);
+			name = WheatherAppUITests;
+			productName = WheatherAppUITests;
+			productReference = 5FE991271F62C5960011FEC4 /* WheatherAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FE990FB1F62C5960011FEC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = vaishnavi;
+				TargetAttributes = {
+					5FE991021F62C5960011FEC4 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					5FE9911B1F62C5960011FEC4 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5FE991021F62C5960011FEC4;
+					};
+					5FE991261F62C5960011FEC4 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5FE991021F62C5960011FEC4;
+					};
+				};
+			};
+			buildConfigurationList = 5FE990FE1F62C5960011FEC4 /* Build configuration list for PBXProject "WheatherApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FE990FA1F62C5960011FEC4;
+			productRefGroup = 5FE991041F62C5960011FEC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FE991021F62C5960011FEC4 /* WheatherApp */,
+				5FE9911B1F62C5960011FEC4 /* WheatherAppTests */,
+				5FE991261F62C5960011FEC4 /* WheatherAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FE991011F62C5960011FEC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDE4C581F67F5CE005AD040 /* 33.jpg in Resources */,
+				5FDE4C561F67F5CE005AD040 /* 1.jpg in Resources */,
+				5FCDFB5B1F66B4ED00F499AD /* w1.jpg in Resources */,
+				5FE991161F62C5960011FEC4 /* LaunchScreen.storyboard in Resources */,
+				5FCDFB601F66B84300F499AD /* 2.jpg in Resources */,
+				5FCDFB611F66B84300F499AD /* 3.png in Resources */,
+				5FE991131F62C5960011FEC4 /* Assets.xcassets in Resources */,
+				5FCDFB5F1F66B84300F499AD /* 1.png in Resources */,
+				5FCDFB631F66BAA100F499AD /* master.jpg in Resources */,
+				5FE991111F62C5960011FEC4 /* Main.storyboard in Resources */,
+				5FDE4C571F67F5CE005AD040 /* 22.jpg in Resources */,
+				5FDE4C5A1F67F691005AD040 /* wheather.png in Resources */,
+				5FDE4C5E1F67F929005AD040 /* i.png in Resources */,
+				5FCDFB651F66BB1B00F499AD /* secondview.jpg in Resources */,
+				5FCDFB591F66B3DB00F499AD /* w.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE9911A1F62C5960011FEC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE991251F62C5960011FEC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FE990FF1F62C5960011FEC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCDFB571F66B19B00F499AD /* SecondViewController.m in Sources */,
+				5FE9910B1F62C5960011FEC4 /* AppDelegate.m in Sources */,
+				5FCDFB541F66B18B00F499AD /* FirstViewController.m in Sources */,
+				5FE991081F62C5960011FEC4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE991181F62C5960011FEC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE991211F62C5960011FEC4 /* WheatherAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE991231F62C5960011FEC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE9912C1F62C5960011FEC4 /* WheatherAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FE9911E1F62C5960011FEC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE991021F62C5960011FEC4 /* WheatherApp */;
+			targetProxy = 5FE9911D1F62C5960011FEC4 /* PBXContainerItemProxy */;
+		};
+		5FE991291F62C5960011FEC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE991021F62C5960011FEC4 /* WheatherApp */;
+			targetProxy = 5FE991281F62C5960011FEC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FE9910F1F62C5960011FEC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE991101F62C5960011FEC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FE991141F62C5960011FEC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE991151F62C5960011FEC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FE9912E1F62C5960011FEC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FE9912F1F62C5960011FEC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FE991311F62C5960011FEC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WheatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = felix.WheatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FE991321F62C5960011FEC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WheatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = felix.WheatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5FE991341F62C5960011FEC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WheatherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = felix.WheatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheatherApp.app/WheatherApp";
+			};
+			name = Debug;
+		};
+		5FE991351F62C5960011FEC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WheatherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = felix.WheatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheatherApp.app/WheatherApp";
+			};
+			name = Release;
+		};
+		5FE991371F62C5960011FEC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WheatherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = felix.WheatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WheatherApp;
+			};
+			name = Debug;
+		};
+		5FE991381F62C5960011FEC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WheatherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = felix.WheatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WheatherApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FE990FE1F62C5960011FEC4 /* Build configuration list for PBXProject "WheatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE9912E1F62C5960011FEC4 /* Debug */,
+				5FE9912F1F62C5960011FEC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE991301F62C5960011FEC4 /* Build configuration list for PBXNativeTarget "WheatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE991311F62C5960011FEC4 /* Debug */,
+				5FE991321F62C5960011FEC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE991331F62C5960011FEC4 /* Build configuration list for PBXNativeTarget "WheatherAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE991341F62C5960011FEC4 /* Debug */,
+				5FE991351F62C5960011FEC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE991361F62C5960011FEC4 /* Build configuration list for PBXNativeTarget "WheatherAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE991371F62C5960011FEC4 /* Debug */,
+				5FE991381F62C5960011FEC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FE990FB1F62C5960011FEC4 /* Project object */;
+}
